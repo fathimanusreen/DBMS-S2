@@ -71,7 +71,7 @@ alter table subject drop column sdate;
 
 -- SQl Query Statements
 --
-create table Teaches(fno int(5) not null,sname varchar(15) not null,sdate date not null,edate date not null,primary key(fno,sname), foreign key(fno)references faculty(fno),foreign key(sname) references subject(sname))
+create table Teaches(fno int(5) not null,sname varchar(15) not null,sdate date not null,edate date not null,primary key(fno,sname), foreign key(fno)references faculty(fno),foreign key(sname) references subject(sname));
 
 
 
