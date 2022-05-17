@@ -50,7 +50,7 @@ insert into subject values('rajan','2017-07-15','2020-03-26','C03','04');
 insert into subject values('amritha','2020-10-26','2022-03-26','C04','04');
 
 
-insert into subject values('drisya','2021-10-26','2023-03-26','C05','05â€™);
+insert into subject values('drisya','2021-10-26','2023-03-26','C05','05');
 
 
 
