@@ -1,0 +1,28 @@
+-- 
+-- Roll No: <13>
+-- Name: <FATHIMA NUSREEN>
+-- Program: <MongoDB Operations>
+-- 
+
+
+
+
+--
+-- mongodb Query Statements
+--
+
+db.order.find({year:{$lt:2019},paid:”Y”}).pretty()
+
+
+db.order.find({year:{$lt:2019},paid:"N"}).pretty()
+
+db.order.find({'cost.currency':"INR"}).pretty()
+
+db.order.find({'cost.currency':"INR",'cost.price':{$lt:18}}).pretty()
+
+db.order.find({'items.pno':"P2"}).pretty()
+
+db.order.find({'items.quantity':{$lt:13}}).pretty()
+
+
+assig
