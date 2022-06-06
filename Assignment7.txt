@@ -25,4 +25,3 @@ db.order.find({'items.pno':"P2"}).pretty()
 db.order.find({'items.quantity':{$lt:13}}).pretty()
 
 
-assig
